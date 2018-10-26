@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mat
 # This code is for the general understanding of the Monte-carlo pricess
-num_smaples=10000;# Give this according to your choice....
-sq_x_max=1;
-sq_y_max=1;
+num_smaples=10000# Give this according to your choice....
+sq_x_max=1
+sq_y_max=1
 
 # Fuction for simulating the Monte Carlo mathod for the calculation of area_ration between square and rectangle
 def Monte_carlo(num_smaples):

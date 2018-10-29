@@ -13,7 +13,8 @@ synt_dist=multivariate_normal(mean,cov_matrix)
 using conditional prob of distribution of variables"""
 
 def gibbs_sampler(rho,theta_initial,max_iteration=10):
-    """ Input provided to this function is the rho value for variance calculation of individual conditional
+    """ Input provided to this function is the rho value for variance 
+    calculation of individual conditional
     probabilities
         theta_initial is the initial_guess of the estimate where you want your gibbs sampler to start
         max_iteration is the maximum number of iteration you want to run your gibbs sampler."""
